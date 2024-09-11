@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREND VOGUE</title>
+
+    
+    <!-- Font family poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="index.css"/>
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+<body>
+
+       <!-- navbar -->
+   <nav class="navbar">
+    <h1>Trend vogue</h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="navbar-menu-toggle" onclick="showNav()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+   </nav>
+
+   <!-- Side navbar -->
+
+   <div class="side-navbar">
+
+    <p style="text-align: right; font-size:22px;" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></p>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+   </div>
+
+
+   <!-- product -->
+
+   <div class="product-section">
+
+    <form class="product-search">
+        <input type="text" id="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+
+    <div class="products" id="products">
+
+        <div class="product-box">
+        <img src="products/Black shirt.jpg" alt="" >
+        <p>Black shirt</p>
+        </div>
+
+        <div class="product-box">
+        <img src="products/Brown shirt.jpg" alt="" >
+        <p>Brown shirt</p>
+        </div>
+
+        <div class="product-box">
+        <img src="products/Casuel black t-shirt.jpg" alt="" >
+        <p>Black tshirt</p>
+        </div>
+
+        <div class="product-box">
+        <img src="image/fashion-man.jpg" alt="" >
+        <p>Grey Blazer</p>
+        </div>
+        
+        <div class="product-box">
+        <img src="products/Casuel t-shirt.jpg" alt="" >
+        <p>White tshirt</p>
+        </div>
+        
+        <div class="product-box">
+        <img src="products/Casuel yellow jacket.jpg" alt="" >
+        <p>Yellow tshirt</p>
+
+        </div>
+        <div class="product-box">
+        <img src="products/Checked mad blue shirt.jpg" alt="" >
+        <p>Checked shirt</p>
+        </div>
+
+        <div class="product-box">
+        <img src="products/Checked shirt.jpg" alt="" >
+        <p>Brown pant</p>
+        </div>
+
+        <div class="product-box">
+        <img src="products/Denim pant.jpg" alt="" >
+        <p>Denim pant</p>
+        </div>
+
+        <div class="product-box">
+        <img src="products/Formal shirt.jpg" alt="" >
+        <p>Formal shirt</p>
+        </div>
+
+        <div class="product-box">
+        <img src="products/Grey shirt.jpg" alt="" >
+        <p>Grey shirt</p>
+        </div>
+        <div class="product-box">
+        <img src="products/Navy blue shirt.jpg" alt="" >
+        <p>White pant</p>
+        </div>
+
+    </div>
+
+   </div>
+
+
+
+
+
+
+
+   <!-- footer -->
+  <footer>
+
+    <div class="footer-container">
+
+      <div class="footer-box-1">
+
+       <h2 class="headingText">TREND VOGUE</h2>
+       <p>Your ultimate destination for trendy fashion and life style essentials.</p>      
+       
+       <div class="footer-icon-container">
+          <i class="fa-brands fa-instagram" style="color: #fff;"></i>
+          <i class="fa-brands fa-twitter" style="color: #fff;"></i>
+          <i class="fa-brands fa-facebook" style="color: #fff;"></i>
+       </div>
+
+      </div>
+    </div>
+    <p>@ 2024 trendvogue.com</p>
+  </footer>
+
+
+
+    <script src="collection.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
